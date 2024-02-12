@@ -12,3 +12,6 @@ If you're choosing a different AWS profile, use the command below:
 ```terraform apply -var='aws_profile={YOUR AWS PROFILE}'```
 
 For automatically provisiong please add ```-auto-approve``` flag
+
+# # Test
+- After terraform apply, the public ip will be shown as an terraform output
